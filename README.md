@@ -14,7 +14,7 @@
    ```
 
    ```bash
-   cd arka-test
+   cd \Take-Home-Test-Arka
    ```
 1. ### <a name="_tnui462pesne"></a>**Setting Up Docker Environment**
    **Make sure Docker and Docker Compose are installed on your system.**
