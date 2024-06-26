@@ -28,7 +28,3 @@ class TestRemoveDuplicates(unittest.TestCase):
         input_list_5 = []
         expected_output_5 = []
         self.assertEqual(remove_duplicates(input_list_5), expected_output_5)
-
-if __name__ == '__main__':
-    unittest.main()
-
