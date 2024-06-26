@@ -29,7 +29,7 @@
    Use the following command to enter the Django container shell:
    
    ```bash
-   docker exec -it arka-test-web-1 /bin/bash
+   docker exec -it take-home-test-arka-web-1 /bin/bash
    ```
 
 1. ### <a name="_l62s91xz3iv5"></a>**Creating a Superuser**
