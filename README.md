@@ -32,21 +32,21 @@
    docker exec -it take-home-test-arka-web-1 /bin/bash
    ```
 
-1. ### <a name="_l62s91xz3iv5"></a>**Creating a Superuser**
-   Inside the container, run the following command to create a superuser:
-   
-   ```bash
-   python manage.py createsuperuser
-   ```
-1. ### <a name="_q6ifut7hnvo4"></a>**Running Migrations**
+1. ### <a name="_l62s91xz3iv5"></a>**Running Migrations**
    While still inside the container, run this command to apply database migrations:
 
    ```bash
    python manage.py migrate
    ```
+1. ### <a name="_q6ifut7hnvo4"></a>**Creating a Superuser**
+   While Inside the container, run the following command to create a superuser:
+   
+   ```bash
+   python manage.py createsuperuser
+   ```
    
 1. ### <a name="_i5b4ss80ehy1"></a>**Running Test Cases**
-   Execute the following command inside the container to run the test suite:
+   While Inside the container, Execute the following command inside the container to run the test suite:
    
    ```bash
    python manage.py test
